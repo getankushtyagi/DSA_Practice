@@ -16,3 +16,8 @@ class Solution:
             for j in range(i+1,len(nums)):
                 if(target==(nums[i]+nums[j])):
                     return [i,j]
+                
+                
+obj=Solution()
+print(obj.twoSumOptimize([1,3,4,2,5,6,7,8],3))
+print(obj.twoSum([1,3,4,2,5,6,7,8],3))
