@@ -11,6 +11,8 @@ class myQueue:
             return True
         else:
             return False
+        
+        # OR len(self.items)==0
 
     
     def isFull(self):
@@ -18,6 +20,8 @@ class myQueue:
         if(len(self.items)==self.size):
             return True
         return False
+    
+        # OR len(self.items)==0
 
     
     def enqueue(self, x):
