@@ -1,3 +1,4 @@
+#brute force aaproach
 class MCO:
     def maximum_ones(self,nums):
         if(len(nums)<=1):
