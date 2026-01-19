@@ -22,7 +22,7 @@ class SN:
     def singleNumber(self, nums):
         result = 0
         for num in nums:
-            result ^= num
+            result ^= num #xor
         return result
 
 obj = SN()
