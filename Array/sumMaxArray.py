@@ -1,10 +1,17 @@
-class Solution:
-    def maxSubArray(self, nums):
-        maxi=float("-inf")
-        curr_sum=0
-        for num in nums:
-            curr_sum+=num
-            maxi=max(maxi,curr_sum)
-            if(curr_sum<0):
-                curr_sum=0
-        return maxi
+class solution:
+    def maxsubarraysum(self,arr):
+        maximum=float("-inf")
+        count=0
+        for val in arr:
+            maximum+=val
+            
+            count=max(maximum,count)
+            
+            if(maximum<0):
+                maximum=0
+        return count
+            
+            
+obj=solution()
+
+print(obj.maxsubarraysum( [2, 3, -8, 7, -1, 2, 3]))
