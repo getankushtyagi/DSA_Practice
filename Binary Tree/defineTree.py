@@ -3,7 +3,14 @@ class Node:
         self.value = value
         self.left = None
         self.right = None
-        
+
+
+# Tree Structure:
+#         drinks
+#        /      \
+#      hot      cold
+#     /  \      /   \
+#   tea coffee cola fanata
 
 drinks=Node("drinks")
 hot=Node("hot")
