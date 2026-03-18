@@ -11,9 +11,10 @@ class MCO:
                 count=0
                 continue
             else:
-                count+=1    
-                if(count>max_count):
-                    max_count=count
+                count+=1  
+                max_count=max(max_count,count)  
+                # if(count>max_count):
+                #     max_count=count
         return max_count
     
     
