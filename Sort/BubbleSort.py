@@ -1,4 +1,12 @@
 
+"""
+Problem: Bubble Sort
+
+Given an array of integers, sort it using the bubble sort algorithm.
+Bubble sort repeatedly compares adjacent elements and swaps them if they are in wrong order.
+Time Complexity: O(n²)
+"""
+
 class sort:
     def bubbleSorting(self,arr):
         for i in range(len(arr)):

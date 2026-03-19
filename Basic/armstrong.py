@@ -1,3 +1,11 @@
+"""
+Problem: Armstrong Number
+
+Determine if a given number is an Armstrong number (also known as Narcissistic number).
+An Armstrong number is a number that is equal to the sum of cubes of its digits.
+Example: 153 is an Armstrong number because 1³ + 5³ + 3³ = 1 + 125 + 27 = 153
+"""
+
 class AS:
     def armstrong(self, data):
         if(data <= 0):

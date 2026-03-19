@@ -1,3 +1,14 @@
+"""
+Problem: Basic Stack Implementation
+
+Implement a stack with basic operations using array/list:
+- push(x): Add element to top
+- pop(): Remove and return top element
+- peek(): Get top element without removing
+- isEmpty(): Check if stack is empty
+Follows LIFO (Last In First Out) principle.
+"""
+
 #works on LIFO principle
 class myStack:
     def __init__(self, n):

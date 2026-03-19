@@ -1,3 +1,10 @@
+"""
+Problem: Delete Middle Node of Linked List
+
+Given a singly linked list, delete the middle node and return the head of the modified list.
+Use the slow-fast pointer technique where slow moves one step and fast moves two steps.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

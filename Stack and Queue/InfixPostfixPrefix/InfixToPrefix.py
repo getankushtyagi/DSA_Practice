@@ -1,3 +1,13 @@
+"""
+Problem: Convert Infix Expression to Prefix
+
+Given an infix expression, convert it to prefix notation (Polish Notation).
+Infix: operators are between operands (A + B)
+Prefix: operators come before operands (+AB)
+Algorithm: Reverse the infix, convert to postfix, then reverse the result.
+Example: "A+B*C" -> "+A*BC"
+"""
+
 # in this we need to once reverse the string and then perform infix to postfix and once you get the result again reverse 
 
 

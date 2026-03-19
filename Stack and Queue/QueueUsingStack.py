@@ -1,3 +1,14 @@
+"""
+Problem: Implement Queue using Stacks
+
+Implement a FIFO queue using only two stacks.
+The implemented queue should support all normal queue operations:
+- push(x): Push element x to the back of queue
+- pop(): Remove element from front of queue
+- peek(): Get the front element
+- empty(): Check if queue is empty
+"""
+
 class MyQueue:
 
     def __init__(self):

@@ -1,4 +1,11 @@
 # maximum sub array sum
+"""
+Problem: Maximum Subarray Sum (Kadane's Algorithm)
+
+Given an integer array, find the contiguous subarray which has the largest sum and return its sum.
+This problem is solved using Kadane's Algorithm in O(n) time complexity.
+"""
+
 class solution:
     def maxsubarraysum(self,arr):
         maximum=float("-inf")

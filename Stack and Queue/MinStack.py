@@ -1,3 +1,14 @@
+"""
+Problem: Min Stack
+
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time O(1).
+Implement the MinStack class with:
+- push(val): Push element val onto stack
+- pop(): Remove element on top of stack
+- top(): Get the top element
+- getMin(): Retrieve the minimum element in the stack
+"""
+
 class MinStack:
 
     def __init__(self):

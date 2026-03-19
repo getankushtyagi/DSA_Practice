@@ -1,3 +1,13 @@
+"""
+Problem: Convert Postfix Expression to Infix
+
+Given a postfix expression (Reverse Polish Notation), convert it to infix notation.
+Postfix: operators come after operands (AB+)
+Infix: operators are between operands with parentheses ((A+B))
+Use a stack to build the expression tree.
+Example: "AB+C*" -> "((A+B)*C)"
+"""
+
 class Solution:
     
     def postfixtoinfix(self,s):

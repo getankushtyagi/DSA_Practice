@@ -1,4 +1,11 @@
 #brute force aaproach
+"""
+Problem: Maximum Consecutive Ones
+
+Given a binary array nums (containing only 0s and 1s), find the maximum number of 
+consecutive 1s in the array.
+"""
+
 class MCO:
     def maximum_ones(self,nums):
         if(len(nums)<=1):

@@ -1,3 +1,11 @@
+"""
+Problem: Single Number
+
+Given a non-empty array of integers where every element appears twice except for one, 
+find that single element that appears only once.
+Solution uses XOR bitwise operation for O(n) time and O(1) space complexity.
+"""
+
 # class SN:
 #     def singleNumber(self,nums):
 #         if(len(nums)<1):

@@ -1,3 +1,11 @@
+"""
+Problem: Check Palindrome String
+
+Determine if a given string is a palindrome using recursion.
+A palindrome is a string that reads the same forwards and backwards.
+Example: "radar" is a palindrome.
+"""
+
 # without reucursion 
 # def palindrome(s):
 #     if(s==s[::-1]):

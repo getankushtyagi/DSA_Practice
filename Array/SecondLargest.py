@@ -1,3 +1,10 @@
+"""
+Problem: Second Largest Element
+
+Given an array of integers, find and return the second largest element in the array.
+If the second largest element doesn't exist, return -1.
+"""
+
 class SL:
     def second_largest(self,nums):
         

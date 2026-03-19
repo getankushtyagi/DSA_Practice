@@ -1,3 +1,12 @@
+"""
+Problem: Binary Tree Level Order Traversal (BFS)
+
+Given the root of a binary tree, return the level order traversal of its nodes' values.
+(i.e., from left to right, level by level).
+
+Approach: Use BFS with a queue to traverse level by level.
+"""
+
 # bfs - level order traversal (breadth first search)
 # worked on queue - processes nodes level by level
 

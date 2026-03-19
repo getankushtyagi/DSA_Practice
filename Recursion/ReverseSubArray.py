@@ -1,3 +1,10 @@
+"""
+Problem: Reverse a Subarray using Recursion
+
+Given an array and two indices (start and end), reverse only the subarray within 
+those indices using recursion.
+"""
+
 def reverse(arr,l,r):
     if(l>=r):
         return

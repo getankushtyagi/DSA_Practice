@@ -1,3 +1,12 @@
+"""
+Problem: Basic Linked List Implementation
+
+Implement a singly linked list with basic operations including:
+- Insert at beginning
+- Insert at end
+- Display/print the list
+"""
+
 class Node:
     def __init__(self,data):
         self.value=data

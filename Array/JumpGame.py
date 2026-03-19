@@ -1,3 +1,11 @@
+"""
+Problem: Jump Game
+
+Given an array of non-negative integers where each element represents your maximum jump length 
+at that position, determine if you can reach the last index starting from the first index.
+Each element nums[i] represents the maximum length of a forward jump from index i.
+"""
+
 class JG:
     # Input: nums = [2,3,1,1,4]
     def jump(self,nums):

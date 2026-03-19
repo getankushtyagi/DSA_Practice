@@ -1,3 +1,14 @@
+"""
+Problem: Binary Tree DFS Traversals
+
+Given the root of a binary tree, implement all three depth-first search traversals:
+1. Preorder Traversal (Root -> Left -> Right)
+2. Inorder Traversal (Left -> Root -> Right)  
+3. Postorder Traversal (Left -> Right -> Root)
+
+Return the nodes' values in the respective traversal order.
+"""
+
 # dfs - depth first search (Recursion)
 # 1.Preorder(root-left-right)
 # 2.Inorder(left-root-right)

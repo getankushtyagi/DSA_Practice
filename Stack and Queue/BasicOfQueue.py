@@ -1,3 +1,15 @@
+"""
+Problem: Basic Queue Implementation
+
+Implement a queue with basic operations using array/list:
+- enqueue(x): Add element to rear
+- dequeue(): Remove element from front
+- getFront(): Get front element
+- getRear(): Get rear element
+- isEmpty(): Check if queue is empty
+Follows FIFO (First In First Out) principle.
+"""
+
 class myQueue:
     def __init__(self, n):
         # Define Data Structures

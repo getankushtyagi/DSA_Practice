@@ -1,3 +1,10 @@
+"""
+Problem: Merge Two Linked Lists
+
+Given two singly linked lists, merge them by connecting the tail of the first list 
+to the head of the second list.
+"""
+
 class Node:
     def __init__(self,data):
         self.value=data

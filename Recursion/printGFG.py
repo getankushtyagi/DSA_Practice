@@ -1,3 +1,10 @@
+"""
+Problem: Print String N Times using Recursion
+
+Given a string "GFG" and a number n, print the string n times using recursion.
+Demonstrates basic recursive function calls with a base case.
+"""
+
 class Solution:
     def printGfg(self, n):
         

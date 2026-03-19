@@ -1,3 +1,10 @@
+"""
+Problem: Find Middle Element of Linked List
+
+Given the head of a singly linked list, return the middle node.
+If there are two middle nodes, return the second middle node.
+"""
+
 class Node:
     def __init__(self, data):
         self.data = data

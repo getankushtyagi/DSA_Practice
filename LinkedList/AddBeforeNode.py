@@ -1,3 +1,10 @@
+"""
+Problem: Insert Node Before a Target Node in Linked List
+
+Given a singly linked list and a target node value, insert a new node before the first occurrence 
+of the target node. If the target is the head, update the head pointer.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

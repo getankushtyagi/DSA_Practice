@@ -1,3 +1,10 @@
+"""
+Problem: Insert Node at Head of Doubly Linked List
+
+Given a doubly linked list, insert a new node at the beginning (head) of the list.
+Update both next and prev pointers appropriately.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

@@ -1,3 +1,10 @@
+"""
+Problem: Insert Node at End of Doubly Linked List
+
+Given a doubly linked list, insert a new node at the end of the list.
+Update both next and prev pointers to maintain the doubly linked structure.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

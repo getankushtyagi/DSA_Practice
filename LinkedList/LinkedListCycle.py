@@ -1,3 +1,11 @@
+"""
+Problem: Detect Cycle in Linked List
+
+Given the head of a linked list, determine if the linked list has a cycle in it.
+Use Floyd's Cycle Detection Algorithm with slow and fast pointers.
+Return True if there is a cycle, False otherwise.
+"""
+
 class Node:
     def __init__(self,data):
         self.value=data

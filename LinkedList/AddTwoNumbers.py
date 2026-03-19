@@ -1,3 +1,11 @@
+"""
+Problem: Add Two Numbers Represented by Linked Lists
+
+Given two non-empty linked lists representing two non-negative integers, where digits are stored 
+in reverse order, add the two numbers and return the sum as a linked list.
+Example: (2 -> 4 -> 3) + (5 -> 6 -> 4) = (7 -> 0 -> 8), representing 342 + 465 = 807
+"""
+
 class Node:
     def __init__(self,data):
         self.value=data

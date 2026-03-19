@@ -1,5 +1,16 @@
 from collections import deque
 
+"""
+Problem: Implement Stack using Queues
+
+Implement a LIFO stack using only queue data structure.
+The implemented stack should support all normal stack operations:
+- push(x): Push element x onto stack
+- pop(): Remove element on top of stack
+- top(): Get the top element
+- empty(): Check if stack is empty
+"""
+
 class MyStack:
 
     def __init__(self):

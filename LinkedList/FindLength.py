@@ -1,3 +1,10 @@
+"""
+Problem: Find Length of Linked List
+
+Given the head of a singly linked list, return the number of nodes in the list.
+Traverse the list and count each node.
+"""
+
 class Node:
     def __init__(self, data):
         self.data = data

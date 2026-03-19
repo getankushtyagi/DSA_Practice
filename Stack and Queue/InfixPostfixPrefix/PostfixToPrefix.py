@@ -1,3 +1,13 @@
+"""
+Problem: Convert Postfix Expression to Prefix
+
+Given a postfix expression, convert it to prefix notation.
+Postfix: operators come after operands (AB+)
+Prefix: operators come before operands (+AB)
+Use a stack to process operands and operators.
+Example: "AB+C*" -> "*+ABC"
+"""
+
 #User function Template for python3
 
 class Solution:

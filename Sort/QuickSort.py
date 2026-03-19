@@ -1,3 +1,11 @@
+"""
+Problem: Quick Sort
+
+Given an array of integers, sort it using the quick sort algorithm.
+Quick sort uses a pivot element to partition the array and recursively sorts the partitions.
+Time Complexity: O(n log n) average, O(n²) worst case
+"""
+
 class Quick:
     def quick_sort(self,arr):
         

@@ -1,3 +1,10 @@
+"""
+Problem: Missing Number
+
+Given an array containing n distinct numbers taken from the range [0, n], 
+find the one number that is missing from the array.
+"""
+
 class MN:
     def missing_number(self,arr):
         if(len(arr)<=1):

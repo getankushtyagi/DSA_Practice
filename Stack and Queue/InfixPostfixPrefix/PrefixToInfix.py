@@ -1,3 +1,13 @@
+"""
+Problem: Convert Prefix Expression to Infix
+
+Given a prefix expression (Polish Notation), convert it to infix notation.
+Prefix: operators come before operands (+AB)
+Infix: operators are between operands with parentheses ((A+B))
+Process the prefix expression from right to left using a stack.
+Example: "*+ABC" -> "((A+B)*C)"
+"""
+
 # here start from reverse only 
 class Solution:
     def preToInfix(self, pre_exp):

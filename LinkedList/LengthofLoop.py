@@ -1,3 +1,10 @@
+"""
+Problem: Find Length of Loop in Linked List
+
+Given a linked list that contains a cycle/loop, find the length of the loop.
+Use Floyd's cycle detection algorithm (slow-fast pointers) to detect and measure the loop.
+"""
+
 def lengthOfLoop(self, head):
     if(head is None):
         return

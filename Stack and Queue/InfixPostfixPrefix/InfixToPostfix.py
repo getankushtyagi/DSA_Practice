@@ -1,3 +1,13 @@
+"""
+Problem: Convert Infix Expression to Postfix
+
+Given an infix expression, convert it to postfix notation (also known as Reverse Polish Notation).
+Infix: operators are between operands (A + B)
+Postfix: operators come after operands (AB+)
+Use a stack to handle operator precedence and parentheses.
+Example: "A+B*C" -> "ABC*+"
+"""
+
 class Solution:
 
     def precedence(self, s):

@@ -1,3 +1,11 @@
+"""
+Problem: Binary Search
+
+Implement binary search algorithm to find a target value in a sorted array.
+Binary search works by repeatedly dividing the search interval in half.
+Time Complexity: O(log n)
+"""
+
 class BS:
     def binary_search(self , nums, target):
         

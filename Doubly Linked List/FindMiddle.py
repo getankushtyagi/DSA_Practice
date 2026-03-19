@@ -1,3 +1,10 @@
+"""
+Problem: Find Middle Element of Doubly Linked List
+
+Given the head of a doubly linked list, find and return the middle node.
+Use the slow-fast pointer technique where slow moves one step and fast moves two steps.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

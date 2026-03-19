@@ -1,3 +1,10 @@
+"""
+Problem: Insert Node After a Position in Doubly Linked List
+
+Given a doubly linked list and a position, insert a new node after that specific position.
+Update both next and prev pointers appropriately.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

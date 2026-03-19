@@ -1,3 +1,10 @@
+"""
+Problem: Insert Node After a Target Node in Linked List
+
+Given a singly linked list and a target node value, insert a new node after the first occurrence 
+of the target node.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

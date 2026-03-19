@@ -1,3 +1,12 @@
+"""
+Problem: Merge Sort
+
+Given an array of integers, sort it using the merge sort algorithm.
+Merge sort is a divide-and-conquer algorithm that divides the array into halves,
+recursively sorts them, and then merges the sorted halves.
+Time Complexity: O(n log n)
+"""
+
 class Sorting:
     def mergeSort(self,arr):
         if(len(arr)<2):

@@ -1,3 +1,10 @@
+"""
+Problem: Search Element in Linked List
+
+Given the head of a singly linked list and a target value, search for the target 
+and return its index position (0-based). Return -1 if not found.
+"""
+
 class Node:
     def __init__(self, data):
         self.data = data

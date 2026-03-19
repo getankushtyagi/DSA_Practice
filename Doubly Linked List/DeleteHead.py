@@ -1,3 +1,10 @@
+"""
+Problem: Delete Head Node from Doubly Linked List
+
+Given the head of a doubly linked list, delete the head node and return the new head.
+Update the prev pointer of the new head to None.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

@@ -1,3 +1,10 @@
+""" 
+Problem: Define a Binary Tree Node and Create a Binary Tree
+
+Create a Node class to represent a binary tree node and build a binary tree
+with custom values. Each node contains a value and pointers to left and right children.
+"""
+
 class Node:
     def __init__(self, value):
         self.value = value

@@ -1,3 +1,10 @@
+"""
+Problem: Remove Head Node from Linked List
+
+Given the head of a singly linked list, remove the head node and return the new head.
+If the list becomes empty, return None.
+"""
+
 class Node:
     def __init__(self, data):
         self.data = data

@@ -1,4 +1,12 @@
 # Node class
+"""
+Problem: Stack Implementation using Linked List
+
+Implement a stack using a linked list instead of an array.
+Provides efficient push and pop operations with dynamic size.
+Operations: push, pop, peek, isEmpty.
+"""
+
 class Node:
     def __init__(self, new_data):
         self.data = new_data

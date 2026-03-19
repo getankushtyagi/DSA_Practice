@@ -1,3 +1,10 @@
+"""
+Problem: Reverse an Array using Recursion
+
+Given an array, reverse it in-place using recursion with two pointers approach.
+Swap elements from both ends moving towards the center.
+"""
+
 def reverse(arr,l,r):
     if(l>=r):
         return

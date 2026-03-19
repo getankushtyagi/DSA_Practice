@@ -1,3 +1,10 @@
+"""
+Problem: Reverse a Doubly Linked List
+
+Given the head of a doubly linked list, reverse it by swapping the next and prev pointers 
+for all nodes. Return the new head.
+"""
+
 class Node:
     def __init__(self,data):
         self.val=data

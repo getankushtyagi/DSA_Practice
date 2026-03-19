@@ -1,3 +1,14 @@
+"""
+Problem: Valid Parentheses
+
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', 
+determine if the input string is valid.
+A string is valid if:
+1. Open brackets are closed by the same type of brackets
+2. Open brackets are closed in the correct order
+Use a stack to track opening brackets.
+"""
+
 class Solution:
     def __init__(self):
         # Define Data Structures

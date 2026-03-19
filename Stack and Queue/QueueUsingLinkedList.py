@@ -1,3 +1,11 @@
+"""
+Problem: Queue Implementation using Linked List
+
+Implement a queue using a linked list instead of an array.
+Provides efficient enqueue and dequeue operations with dynamic size.
+Operations: enqueue, dequeue, getFront, isEmpty, size.
+"""
+
 # 1 x : Call enqueue(x)
 # 2: Call dequeue()
 # 3: Call getFront()
