@@ -44,7 +44,6 @@ class Solution:
         low=0
         high=0
         key={}
-        result=0
         maxi=0
         while(high<len(s)):
             if s[high] in key:
