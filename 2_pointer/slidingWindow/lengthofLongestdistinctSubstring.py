@@ -17,6 +17,7 @@ Explanation: The entire string "aabaaab" has exactly 2 unique characters 'a' and
 """
 
 
+# using sliding window approach, we can maintain a window that contains at most k distinct characters. We will expand the window by moving the high pointer and check the number of distinct characters in the current window. If it exceeds k, we will move the low pointer to shrink the window until we have at most k distinct characters again. We will keep track of the maximum length of valid substrings encountered during this process.
 
 class Solution:
     def longestKSubstr(self, s, k):
@@ -36,8 +37,41 @@ class Solution:
 
             high += 1
 
-        return maxi
+        return -1 if (maxi<k) else maxi
 
-
+    # using hashmap to store the count of characters in the current window, we can efficiently check the number of distinct characters and update the maximum length of valid substrings.
+    def longestKSubstrHash(self, s, k):
+        low=0
+        high=0
+        key={}
+        result=0
+        maxi=0
+        while(high<len(s)):
+            if s[high] in key:
+                key[s[high]]+=1
+            else:
+                key[s[high]]=1
+            count=len(key)
+            if(count==k):
+                maxi=max(maxi,(high-low+1))
+                
+            while(len(key)>k):
+                key[s[low]]-=1
+                if key[s[low]] == 0:
+                    del key[s[low]]
+                low+=1
+            high+=1
+        return -1 if (maxi<k) else maxi
+            
+        
+        
 obj = Solution()
+
 print(obj.longestKSubstr("aabacbebebe", k=3))
+print(obj.longestKSubstr("aaaa", k=2))
+print(obj.longestKSubstr("aabaaab", k=2))   
+
+print(obj.longestKSubstrHash("aabacbebebe", k=3))
+print(obj.longestKSubstrHash("aaaa", k=2))
+print(obj.longestKSubstrHash("aabaaab", k=2))   
+
