@@ -52,6 +52,26 @@ class Solution:
         print(nums)
         return unique
 
+    #practise and other approach 
+    def removeDuplicates1(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        i=0
+        j=1
+        
+        count=0
+        while j<len(nums):
+            if(nums[i] != nums[j]):
+                i+=1
+                nums[i]=nums[j]
+                count+=1
+                j+=1
+            while (nums[i]==nums[j]):
+                j+=1
+                if(j==len(nums)):
+                    break
+                
+        return [nums,count]
 
 obj=Solution()
 print(obj.removeDuplicates([1,1,2,3,3,4,5,5,6,7,7,8,9,9]))
