@@ -35,6 +35,7 @@ class sol:
         low=0
         high=1
         
+        #here we short the array and creating a range like double the high and low according to the target in an indefinite array 
         while high < len(arr) and arr[high]<target:
             low=high
             high=high*2
